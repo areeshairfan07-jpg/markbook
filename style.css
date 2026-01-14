@@ -68,45 +68,36 @@ header {
 
 
     .hero{
-        display: flex;
-        flex-direction: column
-        ;
-    }
-    .heroimg{
-        width: 100%;
-        padding: 0px 30px;
+        flex-direction: column;
     }
     .content{
         width: 100%;
-        padding: 0px 20px ;
-        text-align: centre;
+        padding: 0px 10px;
+        align-items: center;
+    }
+    .heroimg{
+        width: 100px;
+        padding: 0px 30px;
     }
     .rectangle{
         display: none;
     }
-    .btn{
-        width: 100%;
-        padding: 40px ;
-        display: flex;
-        flex-direction: column;
-    }
-
+    
 }
 @media screen and (min-width:481px) and (max-width:768) {
     .hero{
         flex-direction: column;
-        
     }
     .content{
-        width: 88%;
-        padding: 0px 20px;
-        text-align: center;
+        width: 100%;
+        padding: 0px 10px;
+        align-items: center;
     }
     .heroimg{
-        width: 100%;
+        width: 100px;
         padding: 0px 30px;
     }
-
+    
 }
 
 /* hero */
@@ -120,6 +111,12 @@ header {
     gap: 70px;
     justify-content: center;
     position: relative;
+}
+.heroimg{
+    width: 30%;
+}
+.heroimg img{
+    width: 100%;
 }
 
 .content {
@@ -326,7 +323,7 @@ width: 40%;
 
 }
 /* 3 */
-hero  {
+.hero  {
     width: 100%;
     display: flex;
 
@@ -360,7 +357,12 @@ hero  {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
+/* extension */
+.browser{
+    display: flex;
+    justify-content: center;
+}
+.ch
 
 
 
