@@ -144,6 +144,12 @@ header {
     font-size: "popies";
     padding: 10px 20px;
     border-radius: 5px;
+    
+
+}
+.btn{
+    display: flex;
+    gap: 20px;
 }
 
 .btn .first {
@@ -164,6 +170,7 @@ header {
 .btn .second:hover{
      background-color: rgb(82, 103, 223)  !important;
     color: black;
+  
 }
 .rectangle{
     width: 50%;
@@ -221,8 +228,8 @@ header {
 /*feature 1  */
 .features1{
     flex-direction: column;
-    width: 100%;
-    display: flex;
+    width: 50%;
+    /* display: flex; */
     justify-content: center;
     align-items: center; 
     
@@ -284,7 +291,7 @@ width: 40%;
 /* 2 */
 .hero  {
     width: 100%;
-    display: flex;
+    /* display: flex; */
 
     padding: 70px 0px;
 
@@ -308,6 +315,17 @@ width: 40%;
 .heroimg .img2{
     width: 100%;
     
+}
+  .content .btns button {
+    
+    align-items: center;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: "popies";
+    padding: 10px 20px;
+    border-radius: 5px;
+
 }
 .rectangle{
     width: 50%;
@@ -349,20 +367,38 @@ width: 40%;
     width: 100%;
     
 }
-.content .btn button {
+
+.content .btns button {
+ align-items: center;
     outline: none;
     border: none;
     background: transparent;
     font-size: "popies";
     padding: 10px 20px;
     border-radius: 5px;
+
 }
 /* extension */
 .browser{
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
-.ch
+.extension{
+    background-color: aliceblue;
+}
+.extensioncontent{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    gap: 20px;
+    font-family: "popies";
+}
+
 
 
 
