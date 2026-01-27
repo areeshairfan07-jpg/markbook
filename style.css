@@ -243,25 +243,30 @@ header {
       width: 100%;
 } 
 
-.features1 .content .btn {
-    outline: none;
+
+.btnen #third {
+    background-color: rgb(82, 103, 223)  !important;
+    color: white;
+     outline: none;
     border: none;
     background: transparent;
     font-size: "popies";
-    padding: 10px 20px;
+   padding: 10px 20px;;
     border-radius: 5px;
+}
+.btnen #third a{
+    text-decoration: none;
+    color: white;
+    margin: top;
 
 }
-.btn #first {
-    background-color: rgb(82, 103, 223)  !important;
-    color: white;
-}
-.btn #first:hover{
+.btnen #third:hover{
     color: black;
     background-color: rgb(247, 247, 247) !important;
     box-shadow:  0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
 
 }
+
 .content{
     width: 20%;
     display: flex;
@@ -316,7 +321,7 @@ width: 40%;
     width: 100%;
     
 }
-  .content .btns button {
+  /* .content .btns button {
     
     align-items: center;
     outline: none;
@@ -326,7 +331,7 @@ width: 40%;
     padding: 10px 20px;
     border-radius: 5px;
 
-}
+} */
 .rectangle{
     width: 50%;
     height: 20rem;
@@ -339,6 +344,25 @@ width: 40%;
     top: 50%;
     z-index: -5;
 
+}
+.btning{
+    /* color: white; */
+    background-color: rgb(82, 103, 223)  !important;
+     outline: none;
+    border: none;
+    background: transparent;
+    font-size: "popies";
+   padding: 10px 20px;;
+    border-radius: 5px;
+    border: none;
+}
+.btning a{
+    text-decoration: none;
+    background-color: rgb(82, 103, 223)  !important;
+    
+    color: black;
+    outline: none;
+    border: none;
 }
 /* 3 */
 .hero  {
