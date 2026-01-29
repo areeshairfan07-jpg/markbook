@@ -408,6 +408,23 @@ width: 40%;
     justify-content: center;
     flex-direction: row;
 }
+.chrome{
+    box-shadow:  0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.two{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.chromeimg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .extension{
     background-color: aliceblue;
 }
